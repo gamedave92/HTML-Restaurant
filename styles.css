@@ -1,0 +1,39 @@
+body {
+  display: inline;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  background: rgb(203, 88, 12);
+  background: linear-gradient(
+    270deg,
+    rgba(203, 88, 12, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+/*background of the logo*/
+
+#hero {
+  background-image: url(img/pancake\ 3.gif);
+  background-size: cover;
+  padding: 200px 0 100px 0;
+  border-radius: 200px;
+  border: 6px solid black;
+  color: #82a5ca;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+/*text for the logo*/
+
+#title {
+  text-shadow: 0px 0px 4px black;
+  font-size: 100px;
+}
+
+/*for the listed and unlisted*/
+
+#unlisted-list {
+  font-size: 50px;
+  list-style: none;
+  text-align: center;
+}
